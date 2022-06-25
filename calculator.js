@@ -2,28 +2,9 @@ alert('Welcome to my calculator');
 
 function getInputs() {
     
-
-    while (true) {
-        const firstNumber = prompt('Input your first number? ');
-        try {
-            Number(firstNumber);
-            break;
-        }
-        catch (exception) {
-            continue;
-        }
-    }
-
-    while (true) {
-        const secondNumber = prompt('Input your second number? ');
-        try {
-            Number(secondNumber);
-            break;
-        }
-        catch (exception) {
-            continue;
-        }
-    }
+    const firstNumber = prompt('Input your first number? ');
+      
+    const secondNumber = prompt('Input your second number? ');
     
     const operation = prompt('Input the operation you want ot perform.\n1. Addition \n2. Subtraction \n3. Multiplication \n4. Division. \n**** Hint: Enter 1, 2, 3 or 4 *****');
 
