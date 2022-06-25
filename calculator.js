@@ -6,7 +6,7 @@ function getInputs() {
       
     const secondNumber = prompt('Input your second number? ');
     
-    const operation = prompt('Input the operation you want ot perform.\n1. Addition \n2. Subtraction \n3. Multiplication \n4. Division. \n**** Hint: Enter 1, 2, 3 or 4 *****');
+    const operation = prompt('Input the operation you want to perform.\n1. Addition \n2. Subtraction \n3. Multiplication \n4. Division. \n**** Hint: Enter 1, 2, 3 or 4 *****');
 
     switch (operation) {
         case '1':
